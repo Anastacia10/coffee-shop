@@ -1,0 +1,11 @@
+@use "mixins" as mix;
+@use "colors" as colors;
+
+.navLink {
+  @include mix.inter(400, 18px, 22px);
+  color: colors.$white;
+
+  .active {
+    color: colors.$ligthBrown;
+  }
+}

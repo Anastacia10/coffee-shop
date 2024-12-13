@@ -1,0 +1,27 @@
+@mixin disabledElement {
+  .disabled {
+    pointer-events: none;
+    opacity: $opacityHalf;
+  }
+}
+
+@mixin urbanist($weight, $size, $line-height) {
+  font-family: var(--urbanist-font), sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+}
+
+@mixin righteous($weight, $size, $line-height) {
+  font-family: var(--righteous-font), sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+}
+
+@mixin inter($weight, $size, $line-height) {
+  font-family: var(--inter-font), sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+}
